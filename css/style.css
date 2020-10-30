@@ -108,7 +108,8 @@ p {
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 1rem;
-    width: 90&;
+    padding-left: 1rem;
+    width: 90%;
     text-align: left;
 }
 
