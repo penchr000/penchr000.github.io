@@ -80,11 +80,9 @@ h4 {
     text-align:center;
     font-weight: normal
 }
-h4 > span{
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    padding-left: .5rem;
-    padding-right: .5;
+h4>span{
+   margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 h5 {
