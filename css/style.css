@@ -39,21 +39,6 @@ main {
     background-repeat: no-repeat;
     border:1px solid #333;
 }
-
-/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
-
-/* NO changes should be made to any of the code above. */
-
-/* The first heading style rule has been completed for you. Examine it carefully
-   to get an idea of some of the style properties you will need to use; then
-   complete the style code according to the instructions in Canvas. */
-
-/* NOTE: While you will be using some of the same CSS properties, the VALUES 
-   may need to be different in order to style the page correctly. */
-
-
-/* Headings  */
-
 h1 {
     text-transform: uppercase;
     font-size:6rem;
@@ -64,7 +49,6 @@ h1 {
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
 }
-
 h2 { 
     text-transform: uppercase;
     font-size:3rem;
@@ -76,7 +60,6 @@ h2 {
     text-align:center;
     font-weight: normal;
 }
-
 h3 {
     text-transform: uppercase;
     font-size:2rem;
@@ -86,7 +69,6 @@ h3 {
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
 }
-
 h4 {
     text-transform: uppercase;
     font-size:1.5rem;
@@ -98,7 +80,6 @@ h4 {
     text-align:center;
     font-weight: normal
 }
-
 h5 {
     font-size:1rem;
     margin-top:0.25rem;
