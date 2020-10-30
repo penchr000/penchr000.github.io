@@ -80,7 +80,7 @@ h4 {
     text-align:center;
     font-weight: normal
 }
-h4 span{
+h4>span{
     padding-bottom: 0;
     padding-top: 0;
     padding left: .5rem;
