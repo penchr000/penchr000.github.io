@@ -113,16 +113,31 @@ p {
     text-align: left;
 }
 
-
 /* Image & Figure */
 
-img {}
+img {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+}
 
-figure {}
+figure {
+    margin-bottom: 2rem;
+}
 
-figcaption {}
+figcaption {
+    padding-top: 0.5rem;
+    text-align: right;
+}
 
 
 /* Footer */
 
-footer {}
+footer {
+    width: 2rem;
+    border-style: solid;
+    color: #333;
+}
