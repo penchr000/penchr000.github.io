@@ -96,9 +96,21 @@ h5 {
 
 /* Section & Paragraph */
 
-section {}
+section {
+    margin-top: 0.5rem;   
+}
 
-p {}
+p {
+    margin-top:1rem;
+    margin-bottom:1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 1rem;
+    width: 90&;
+    text-align: left;
+}
 
 
 /* Image & Figure */
