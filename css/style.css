@@ -79,41 +79,87 @@ header, footer {
 
 /* Imported Typfaces */
 
+@font-face {
+    
+    font-family:josefinslab;
+    src: url(../fonts/josefinslab-regular.tff) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 
-
+@font-face {
+    
+    font-family:monsterrat;
+    src: url(../fonts/monsterrat-regular.tff) format ('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 
 
 /* Typography Styles */
 
+html {
+    font-family: 'monsterrat', sans-serif
+}
 
+h1 {
+    letter-spacing: .125rem;
+    font-family: 'josefinslab', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
+}
 
+h2 {}
 
+h2 + p {}
+
+p {}
+
+li {}
+
+figcaption {}
+
+roote
 
 
 /* Link Styling */
 
+a {}
 
+a:link,
+a:visited {}
 
-
-
-
+a:focus,
+a:hover {}
+    
+    
 /* List Styling */
 
+ul {}
 
+ol {}
 
-
+.long-list a:hover {}
 
 
 /* Navigation Menu */
 
+nav {}
 
+nav a {}
 
+nav a:focus,
+nav a:hover {}
 
+nav a:active {}
 
 
 /* Footer Styles */
 
-
+footer {}
 
 
 
