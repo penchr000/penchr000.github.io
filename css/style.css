@@ -191,14 +191,28 @@ nav {
     margin-top: .25rem;
 }
 
-nav a {
+nav a {text-underline-position: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border: solid;
+    border-width: 0.0625rem;
+    border-color: #33658A;
     
 }
 
 nav a:focus,
-nav a:hover {}
+nav a:hover {
+    color:#FFF;
+    background-color:#33658A;
+}
 
-nav a:active {}
+nav a:active {
+    color: #FFF;
+    background-color: #000;
+}
 
 
 /* Footer Styles */
