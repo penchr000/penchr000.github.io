@@ -80,31 +80,29 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    
-    font-family:josefinslab;
+
+    font-family:Josefinslab;
     src: url(../fonts/josefinslab-regular.tff) format('truetype');
-    font-weight:normal;
     font-style:normal;
+    font-weight:normal;
 }
-
 @font-face {
-    
-    font-family:monsterrat;
-    src: url(../fonts/monsterrat-regular.tff) format ('truetype');
-    font-weight:normal;
-    font-style:normal;
-}
 
+    font-family:Monsterrat;
+    src: url(../fonts/monsterrat-regular.tff) format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
 
 /* Typography Styles */
 
 html {
-    font-family: 'monsterrat', sans-serif
+    font-family: 'Monsterrat',Arial,sans-serif;
 }
 
 h1 {
     letter-spacing: .125rem;
-    font-family: 'josefinslab', serif;
+    font-family: 'Josefinslab',Garamond,serif;
     font-weight: normal;
     font-style: normal;
     font-size: 3.75rem;
