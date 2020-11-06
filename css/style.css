@@ -118,42 +118,82 @@ h2 {
     font-size: 1.5rem;
 }
 
-h2 + p {}
+h2 + p {
+    text-indent: 1.5rem;
+    
+}
 
-p {}
+p {
+    font-size: 0.75rem;
+    letter-spacing: 0.03125rem;
+    word-spacing: 0.125rem;
+    
+}
 
-li {}
+li {
+    font-size: 0.75rem;
+    letter-spacing: 0.03125rem;
+    word-spacing: 0.125rem;
+}
 
-figcaption {}
+figcaption {
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
 
-roote
 
 
 /* Link Styling */
 
-a {}
+a {
+    outline: none;
+     
+}
 
 a:link,
-a:visited {}
+a:visited {
+    color:#33658A;
+}
 
 a:focus,
-a:hover {}
+a:hover {
+    color: #33658A;
+}
     
     
 /* List Styling */
 
-ul {}
+ul {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+    list-style-type: square;
+   
+}
+ol {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+    list-style-type:lower-alpha;
+}
 
-ol {}
-
-.long-list a:hover {}
+.long-list a:hover {
+    transform: uppercase;
+}
 
 
 /* Navigation Menu */
 
-nav {}
+nav {
+    padding-left: 0;
+    margin-top: .25rem;
+}
 
-nav a {}
+nav a {
+    
+}
 
 nav a:focus,
 nav a:hover {}
@@ -163,7 +203,9 @@ nav a:active {}
 
 /* Footer Styles */
 
-footer {}
+footer {
+    text-align: center;
+}
 
 
 
