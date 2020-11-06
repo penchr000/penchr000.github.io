@@ -113,8 +113,8 @@ h1 {
 h2 {
     letter-spacing: .125rem;
     font-family: 'Josefinslab',Garamond,serif;
-    font-weight: normal;
-    font-style: bold;
+    font-weight: bold;
+    font-style: normal;
     font-size: 1.5rem;
     
 }
