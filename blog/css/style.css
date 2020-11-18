@@ -49,3 +49,18 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+   font-family: Roboto, "Arial", sans-serif;
+}
+
+header {
+    
+}
+
+nav {
+    min-width: 48rem;
+}
