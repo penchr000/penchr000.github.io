@@ -64,3 +64,25 @@ header {
 nav {
     min-width: 48rem;
 }
+
+.blog{
+
+  padding-top:0.25rem;
+  padding-bottom:0.25rem;
+  transform: rotate(7deg);
+  color:black;
+  text-decoration:line-through;
+  text-transform:uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
