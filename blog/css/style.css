@@ -75,7 +75,11 @@ nav {
   text-transform:uppercase;
 }
 
-
+main, footer {
+    margin: 1.25rem auto;
+    width: 90%;
+    min-width: 45rem;
+}
 
 
 
