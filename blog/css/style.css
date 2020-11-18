@@ -74,10 +74,6 @@ section {
     width:50%;
 }
 
-
-}
-
-
 @font-face {
     font-family: "Ultra";
     src: url(../fonts/serif/ultra-regular.ttf) format("truetype");
@@ -108,7 +104,7 @@ h1 span {
     font-size: 4rem;
     font-family: Ultra, serif;
     color: #eaeada;
-    background-color: #82343c;
+    background-color: #82396c;
     padding: .1rem 1rem;
     border-radius: 1rem 0 1rem 0;
     font-weight: normal;
@@ -230,6 +226,19 @@ aside {
     grid-row: 1;
     border-left: 2px solid #333;
     padding-left: 2.5rem;
+
+}
+
+aside h3:first-of-type {
+    margin-top: 0;
+}
+img {
+	width: 100%;
+}
+.subsection figure {
+    margin: 0;
+    margin-right: 0.5rem;
+    background-color: #ededdc;
 }
 .article-image {
     float: left;
@@ -249,6 +258,20 @@ time {
     font-size: .8rem;
 }
 
-
+button {
+	margin-top: 3rem;
+	font-size: 2rem;
+	border: none;
+	background-color: #333366;\
+	padding: 1rem 1rem;
+	font-family: Ultra serif;
+	border-radius: 1rem;
+	color: green;
+}
+.expand {
+	font-size: .5rem;
+	text-decoration: none;
+	
+}
 
 
